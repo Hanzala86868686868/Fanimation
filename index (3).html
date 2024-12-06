@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<title>Fanimation-Explore</title>
+<style>
+    #nav {
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-top: 25px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: oblique;
+        padding: 10px;
+        background-color: black;
+        background-size: cover;
+    }
+
+    .main {
+        border: 2px solid white;
+        border-radius: 10px;
+        height: 500px;
+        width: auto;
+        margin-top: 20px;
+        background-image: url(subpage-header-8-wrap.jpg);
+        background-size: cover;
+    }
+
+    .head1 {
+        text-align: center;
+        margin-top: 200px;
+        font-family: 'elephant';
+        font-size: 50px;
+        color: white;
+    }
+
+    .para1 {
+        text-align: center;
+        font-family: 'elephant';
+        color: white;
+    }
+
+    .nav1 {
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 123px;
+        height: 50px;
+        padding: 10px;
+        color: white;
+        font-family: 'elephant';
+        margin-left: 500px;
+        text-align: center;
+    }
+    .footer0 {
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: black;
+        padding-right: 500px;
+        margin-top: 25px;
+    }
+
+    .head2 {
+        padding-left: 10px;
+        font-style: oblique;
+        color: white;
+    }
+
+    .para {
+        color: white;
+        padding-left: 10px;
+        font-style: oblique;
+    }
+
+    .para0 {
+        color: white;
+        padding-left: 10px;
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .footer {
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-style: oblique;
+        margin-top: 25px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .socailicon {
+        font-size: 25px;
+        color: white;
+        margin-left: 5px;
+    }
+
+    ul li {
+        margin-left: 25px;
+    }
+
+    #place {
+        width: 210px;
+    }
+
+    .div2 {
+        display: inline-flex;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    #btn {
+        margin-left: 10px;
+    }
+    .para05{
+        text-align: center;
+        font-style: oblique;
+        margin-top: 25px;
+    }
+    .para5{
+        font-size: 20px;
+    }
+    .img5{
+        width: 555px;
+        margin-top: 25px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+    .para8{
+        font-size: 18px;
+        font-weight: bold;
+        font-style:oblique;
+    }
+    .para6{
+        font-size: 20px;
+        font-style:oblique;
+    }
+    .para7{
+        font-size: 20px;
+        font-weight: bold;
+        font-style: oblique;
+    }
+    .bord{
+        color:black;
+        padding: 10px;
+        margin-top:50px;
+        height:543px;
+        width: 555px;
+    }
+    .bord2{
+        color:black;
+        padding: 10px;
+        margin-top:25px;
+        height:500px;
+        width: 555px;   
+    }
+    .bord3{
+        padding: 10px;
+        margin-top:50px;
+        height:500px;
+        width: 555px;
+    }
+    .para11{
+        font-size: 20px;
+        font-weight: bold;
+        font-style: oblique;
+    }
+    .para12{
+        font-size: 21px;
+        font-style: oblique;
+    }
+    .para13{
+        font-size: 20px;
+        font-style: oblique;
+    }
+    .para14{
+        font-size: 20px;
+        font-style: oblique;
+    }
+    .img100{
+        height: 200px;
+        width: 200px;
+    }
+    .img102{
+        height: 200px;
+        width: 200px;
+    }
+    .img101{
+        height: 200px;
+        width: 200px;
+    }
+    .head50{
+        text-align: center;
+        color: black;
+        font-style: oblique;
+    }
+    .para15{
+        font-size: 20px;
+    }
+    .img50{
+        margin-left: 100px;
+        margin-top: 25px;
+    }
+    .head51{
+        text-align: center;
+        font-style: oblique;
+        margin-top: 25px;
+    }
+    .img51{
+        margin-left: 150px;
+        margin-top: 25px;
+    }
+    .para16{
+        text-align: center;
+        font-weight: bold;
+        font-style: oblique;
+        margin-top: 50px;
+    }
+    .head52{
+     text-align: center;
+     font-style: oblique;
+     margin-top: 50px;
+    }
+    .para17{
+        text-align: center;
+        font-style: oblique;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .img01{
+        margin-left: 64px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+</style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b11658a047.js" crossorigin="anonymous"></script>
+    <div class="container">
+    <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="div">
+        <nav class="navbar navbar-expand navbar-dark" id="nav">
+            <a href="index.html"><img src="Logo_white_1 (1).png" alt="eror"></a>           
+            <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link" item id="page" href="index (1).html">Products</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" item id="page" href="index (2).html">Help Center</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link"item id="page"href="index (3).html">Explore</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link"id="page"href="index (4).html">Shop Sale</a>
+            </li>
+            </ul>
+            <form class="d-flex">
+             <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" id="btn" type="submit">Search</button>
+            </form>
+            </div>
+            </nav>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+     <div class="main" id="main">
+     <h1 class="head1">Explore..</h1>
+     </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="para05">
+    <h1 class="head5">The fundamentals of choosing a fan</h1>
+    <p class="para5">Style and performance are equally important when choosing a ceiling fan. 
+    One should not be sacrificed for the other</p> 
+    </div>   
+    </div>    
+    </div>
+    <div class="row">
+     <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+      <div>
+        <img class="img5" src="10.PNG" alt="eror">
+      </div>
+     </div>
+     <div class="col-6 col-sm-6 col-md col-lg-6 col-xl-6">
+    <div class="bord">
+     <p class="para8">LOCATION IS EVERYTHING</p>
+     <p class="para6">Where you will install your fan is the first step in selecting the right fan for your space.</p>
+     <p class="para6">We’ve made it easy for you! Look for these details to identify location rating:</p> 
+     <p class="para7">Dry, indoor location</p>
+     <p class="para6">Choose from any of our fans: dry, damp or wet rated.</p>
+     <p class="para7">Outdoor covered or high-humidity indoor location</p>
+     <p class="para6">Choose from our damp or wet rated fans.</p>
+     <p class="para7">Outdoor location with likely direct contact with water</p>
+     <p class="para6">Choose from our wet rated fans.</p>
+    </div>  
+     </div>   
+    </div>
+    <div class="row">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <div class="bord2">
+     <p class="para11">SIZE MATTERS</p>
+     <p class="para12">The size of your room can help determine the size of your fan, identified by blade sweep.</p>
+     <p class="para13">The following are general guidelines; however, scale is a personal preference.</p>
+     <p class="para14">Large diameter fans can go in both small rooms and larger rooms. It’s all in the look you desire.</p>
+     <p class="para14">Optimal performance will come from mounting your fan in the center of the room.</p>
+     <p class="para14">If you have a long or large room, consider the use of multiple fans.</p>
+     </div>   
+     </div>
+     <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <div class="bord3">
+        <img class="img100" src="Capture100.PNG" alt="eror">
+        <img class="img102" src="Capture.PNG" alt="eror">
+        <img class="img101" src="101.PNG" alt="eror"> 
+    </div>  
+     </div>   
+    </div>
+    <div class="row">
+     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+     <div class="head50">
+     <h1 class="head050">Recommended downrod length is based on ceiling height</h1>
+     <p class="para15">Ideal distance from floor to fan blades is 7 to 9 feet.</p>
+     </div>   
+     </div>   
+    </div>
+    <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+     <img class="img50" src="choose-fit-downrod-length-rev2.png" alt="">   
+    </div>    
+    </div>
+    <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h1 class="head51">For sloped-ceiling applications</h1> 
+    <img class="img51" src="choose-fit-slope-pitch-rev1.png" alt="">   
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+     <p class="para16">IDENTIFYING FEATURES IMPORTANT TO YOU</p>  
+     <h1 class="head52">We offer a diverse line of fans with equally diverse features.</h1> 
+     <p class="para17">As you choose your fan, identify the features that matter to you. 
+    Use the Features Legend below to understand the Features icons.</p>
+    <img class="img01" src="choose-fan-icon-set-new.png" alt="">
+    </div>    
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="footer0">
+            <h2 class="head2">Fanimation Fans</h2>
+            <p class="para">Fanimation’s focus is producing creative and functional fans that provide ultimate personal
+            comfort using the latest technology for energy efficiency and seamless control</p>
+            <p class="para"><strong>Fanimation</strong><br>
+                10983 Bennett Parkway<br>
+                Zionsville, IN 46077<br>
+                Phone: 888.567.2055<br>
+                Fax: 866.482.5215</p>
+                <p class="para">Enter your email address below to receive periodic communication from Fanimation.</p>
+                <div class="div2"><input class="form-control" id="place" type="E-mail" placeholder="E-mail" aria-label="E-mail">
+                    <button class="btn btn-outline-light" id="btn" type="submit">Subscribe</button></div>
+            <p class="para0">Join Us On:</p>
+            <a class="socailicon" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a class="socailicon" href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a class="socailicon" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a class="socailicon" href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+        </div>    
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="footer">
+            <footer>
+                PRIVACY POLICY / TERMS AND CONDITION         |         &copy; 2024 Fanimation All rights are reserved.
+         </footer>
+         </div>   
+        </div>
+        </div>   
+</body>
+</html>
